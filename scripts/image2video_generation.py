@@ -24,7 +24,7 @@ class Image2VideoGenerator:
         os.makedirs(output_dir, exist_ok=True)
         
         # 视频参数
-        self.video_size = (1440, 1080)
+        self.video_size = (1050, 1200)
         self.fps = 24
         
     def download_file(self, url: str, filename: str) -> Optional[str]:
@@ -44,9 +44,8 @@ class Image2VideoGenerator:
             print(f"❌ 下载失败 {filename}: {e}")
             return None
     
-    def create_image_clip_with_animation(self, image_path: str, start_time: float, 
-                                       duration: float, animation_type: str = "轻微放大"):
-        """创建带动画效果的图片片段"""
+    def create_image_clip(self, image_path: str, start_time: float, duration: float):
+        """创建图片片段"""
         try:
             # 创建图片片段
             img_clip = ImageClip(image_path)
@@ -54,19 +53,6 @@ class Image2VideoGenerator:
             
             # 调整大小以适应视频尺寸
             img_clip = img_clip.resized(self.video_size)
-            
-            # 添加动画效果
-            if animation_type == "轻微放大":
-                # 使用resize创建缩放动画
-                def resize_func(t):
-                    return 1.0 + (t / duration) * 0.08  # 轻微放大8%
-                img_clip = img_clip.resized(resize_func)
-            elif animation_type == "淡入淡出":
-                # 添加透明度变化效果（简化版本）
-                img_clip = img_clip.with_opacity(0.8)
-            elif animation_type == "左右移动":
-                # 保持居中位置
-                img_clip = img_clip.with_position('center')
             
             return img_clip
             
@@ -139,16 +125,13 @@ class Image2VideoGenerator:
                 
                 if image_path:
                     # 创建图片片段
-                    animation_types = ["轻微放大", "淡入淡出", "左右移动"]
-                    animation_type = animation_types[i % len(animation_types)]
-                    
-                    img_clip = self.create_image_clip_with_animation(
-                        image_path, current_time, clip_duration, animation_type
+                    img_clip = self.create_image_clip(
+                        image_path, current_time, clip_duration
                     )
                     
                     if img_clip:
                         video_clips.append(img_clip)
-                        print(f"   ✅ 图片片段创建成功 (动画: {animation_type})")
+                        print(f"   ✅ 图片片段创建成功")
                     else:
                         print(f"   ❌ 图片片段创建失败")
                 
