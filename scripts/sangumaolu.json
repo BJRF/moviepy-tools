@@ -1,0 +1,90 @@
+{
+    "audioData": "[{\"audio_url\": \"https://lf6-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468512265134932019_6d5da16e-6564-4fec-870d-63e4d177009e.mp3?lk3s=da27ec82&x-expires=1752506650&x-signature=97IVg4z5HXo2adjkCoQQUmdrjmo%3D\", \"duration\": 2976000, \"start\": 0, \"end\": 2976000}, {\"audio_url\": \"https://lf3-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468512265134932019_43cba42b-bef3-4667-a137-f98c498a490c.mp3?lk3s=da27ec82&x-expires=1752506651&x-signature=RIJ9PpyGAKBge%2FsncaC%2Bf7%2Bjpws%3D\", \"duration\": 8592000, \"start\": 2976000, \"end\": 11568000}, {\"audio_url\": \"https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468512265134932019_12a54f0d-eb7e-46e5-9505-41f494366d83.mp3?lk3s=da27ec82&x-expires=1752506650&x-signature=JklUatFuQFmT6wPXwJKa6gjBg24%3D\", \"duration\": 4320000, \"start\": 11568000, \"end\": 15888000}, {\"audio_url\": \"https://lf3-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468512265134932019_2687939d-9402-4ef2-90e0-15c42ff8707a.mp3?lk3s=da27ec82&x-expires=1752506665&x-signature=PtzteeR6xqqPVsfqee4p22xG5A4%3D\", \"duration\": 5640000, \"start\": 15888000, \"end\": 21528000}, {\"audio_url\": \"https://lf3-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468512265134932019_7e4cc979-a324-4118-b784-a4301fde0a1e.mp3?lk3s=da27ec82&x-expires=1752506665&x-signature=74hCgd8oihy8VB5VZe7NbsTAd58%3D\", \"duration\": 5160000, \"start\": 21528000, \"end\": 26688000}, {\"audio_url\": \"https://lf3-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468512265134932019_3bad9071-2877-41b6-9c3d-d5813a014022.mp3?lk3s=da27ec82&x-expires=1752506665&x-signature=Z75SF%2BQlROSahPr5jds5MeC7AlA%3D\", \"duration\": 6648000, \"start\": 26688000, \"end\": 33336000}, {\"audio_url\": \"https://lf3-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468512265134932019_933ef002-f557-49fe-8d65-5394c8c4eb56.mp3?lk3s=da27ec82&x-expires=1752506679&x-signature=gtuBpgvCyMKr7NOYSPKqAJpYHjM%3D\", \"duration\": 5976000, \"start\": 33336000, \"end\": 39312000}, {\"audio_url\": \"https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468512265134932019_75b8f68b-3602-4a44-b099-b68ada42367c.mp3?lk3s=da27ec82&x-expires=1752506679&x-signature=KaqOw47OFW6ZKsiF%2FL5XNYa7Zjk%3D\", \"duration\": 5616000, \"start\": 39312000, \"end\": 44928000}]",
+    "imageData": "[{\"image_url\": \"https://s.coze.cn/t/OXpDIH6kzZU/\", \"start\": 0, \"end\": 2976000, \"width\": 1440, \"height\": 1080}, {\"image_url\": \"https://s.coze.cn/t/KeM0sLRd1r0/\", \"start\": 2976000, \"end\": 11568000, \"width\": 1440, \"height\": 1080, \"in_animation\": \"轻微放大\", \"in_animation_duration\": 100000}, {\"image_url\": \"https://s.coze.cn/t/ldl5-HFGKGA/\", \"start\": 11568000, \"end\": 15888000, \"width\": 1440, \"height\": 1080}, {\"image_url\": \"https://s.coze.cn/t/nmcB8sHp6b8/\", \"start\": 15888000, \"end\": 21528000, \"width\": 1440, \"height\": 1080, \"in_animation\": \"轻微放大\", \"in_animation_duration\": 100000}, {\"image_url\": \"https://s.coze.cn/t/GUtfRfRcaao/\", \"start\": 21528000, \"end\": 26688000, \"width\": 1440, \"height\": 1080}, {\"image_url\": \"https://s.coze.cn/t/ovaA5PjBw-w/\", \"start\": 26688000, \"end\": 33336000, \"width\": 1440, \"height\": 1080, \"in_animation\": \"轻微放大\", \"in_animation_duration\": 100000}, {\"image_url\": \"https://s.coze.cn/t/_ZF5_NFacTM/\", \"start\": 33336000, \"end\": 39312000, \"width\": 1440, \"height\": 1080}, {\"image_url\": \"https://s.coze.cn/t/U_blVlW73kc/\", \"start\": 39312000, \"end\": 44928000, \"width\": 1440, \"height\": 1080, \"in_animation\": \"轻微放大\", \"in_animation_duration\": 100000}]",
+    "text_timielines": [
+      {
+        "start": 0,
+        "end": 2976000
+      },
+      {
+        "start": 2976000,
+        "end": 7950316
+      },
+      {
+        "start": 7950316,
+        "end": 11568000
+      },
+      {
+        "start": 11568000,
+        "end": 15888000
+      },
+      {
+        "start": 15888000,
+        "end": 18185778
+      },
+      {
+        "start": 18185778,
+        "end": 21528000
+      },
+      {
+        "start": 21528000,
+        "end": 24668870
+      },
+      {
+        "start": 24668870,
+        "end": 26688000
+      },
+      {
+        "start": 26688000,
+        "end": 30486857
+      },
+      {
+        "start": 30486857,
+        "end": 33336000
+      },
+      {
+        "start": 33336000,
+        "end": 36783692
+      },
+      {
+        "start": 36783692,
+        "end": 39312000
+      },
+      {
+        "start": 39312000,
+        "end": 42984000
+      },
+      {
+        "start": 42984000,
+        "end": 44928000
+      }
+    ],
+    "text_captions": [
+      "三顾茅庐真的只是刘备求贤若渴吗",
+      "你是一名汉室宗亲正带着关张二将站在隆中茅庐前",
+      "寒风刺骨雪花飘落你的手已冻得发紫",
+      "第一次拜访童子说先生不在你留下拜帖转身离去",
+      "第二次拜访先生依旧不在",
+      "你看着紧闭的柴门心中泛起一丝疑虑",
+      "第三次拜访你终于见到了诸葛亮",
+      "他手持羽扇神情淡然",
+      "你上前行礼他却说天下大势分久必合",
+      "你心中一震这分明是在试探",
+      "你立刻回道合久必分先生此言何意",
+      "他微微一笑终于答应出山",
+      "这一刻你终于明白三顾茅庐不仅是求贤",
+      "更是一场权力的博弈"
+    ],
+    "title_list": [
+      "权谋"
+    ],
+    "title_timelimes": [
+      {
+        "start": 0,
+        "end": 2976000
+      }
+    ],
+    "bgAudioData": "[{\"audio_url\": \"https://p3-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/5603dc783a6c4b75a4bf4e1b44086ad5.MP3~tplv-mdko3gqilj-image.image?rk3s=81d4c505&x-expires=1777550332&x-signature=E1123RzPTMD%2BipseRN4itYxhZyc%3D&x-wf-file_name=%E6%95%85%E4%BA%8B%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90.MP3\", \"duration\": 44928000, \"start\": 0, \"end\": 44928000}]",
+    "kcAudioData": "[{\"audio_url\": \"https://p9-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/c04e7b48586a48f1863e421be4b10cf1.MP3~tplv-mdko3gqilj-image.image?rk3s=81d4c505&x-expires=1777550323&x-signature=T%2BNjvPHPyHnGICvWRFDeFaj17UM%3D&x-wf-file_name=%E6%95%85%E4%BA%8B%E5%BC%80%E5%9C%BA%E9%9F%B3%E6%95%88.MP3\", \"duration\": 4884897, \"start\": 0, \"end\": 4884897}]",
+    "roleImgData": "[{\"image_url\": \"desc_prompt: 古代惊悚插画风格，背景留白，颜色昏暗，黑暗中，黄昏，氛围凝重，庄严肃穆，构建出紧张氛围。人物正面视角，面对屏幕，位于画面正中间。汉室宗亲，身穿古装，古代服饰，线条粗狂，清晰、人物特写，粗狂手笔，高清，高对比度，色彩低饱和，浅景深。人物手已冻得发紫，神情凝重，眼神坚定，带着一丝疑虑。寒风刺骨，雪花飘落，人物站立在隆中茅庐前，背景留白。\", \"start\": 0, \"end\": 2976000, \"width\": 1440, \"height\": 1080}]"
+}
