@@ -1,0 +1,73 @@
+{
+    "image": [
+      "https://s.coze.cn/t/u4tE-R4Wzj8/",
+      "https://s.coze.cn/t/iEEdE-d3_EY/",
+      "https://s.coze.cn/t/2xVcj7cnx8c/",
+      "https://s.coze.cn/t/X6BclfAUAZA/",
+      "https://s.coze.cn/t/mp3vxaVORCA/"
+    ],
+    "voice": [
+      {
+        "code": 0,
+        "data": {
+          "link": "https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426725529589628955_7dc221e6-311e-41d4-ab1b-dfd5dc19b023.mp3?lk3s=da27ec82&x-expires=1752594485&x-signature=qFT%2F1eiI19LHOvCNrpDNnRvr80Y%3D"
+        },
+        "log_id": "20250712234732C854A927C4D4DFBF4C84",
+        "msg": "success"
+      },
+      {
+        "code": 0,
+        "data": {
+          "link": "https://lf3-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426725529589628955_70aeb8b2-7f51-4094-9a83-43213d984735.mp3?lk3s=da27ec82&x-expires=1752594485&x-signature=pQWIs3Dh7a4y9M3dOC0IqaBd9hg%3D"
+        },
+        "log_id": "20250712234732C854A927C4D4DFBF4C84",
+        "msg": "success"
+      },
+      {
+        "code": 0,
+        "data": {
+          "link": "https://lf9-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426725529589628955_a0c2089f-9c7f-41c6-a09d-af3be02caae6.mp3?lk3s=da27ec82&x-expires=1752594485&x-signature=c1X5LKniiAd0YcMS1Uk8%2FbdH%2BzI%3D"
+        },
+        "log_id": "20250712234732C854A927C4D4DFBF4C84",
+        "msg": "success"
+      },
+      {
+        "code": 0,
+        "data": {
+          "link": "https://lf6-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426725529589628955_90ceebbb-4e41-4e2d-ae77-f33f40460085.mp3?lk3s=da27ec82&x-expires=1752594485&x-signature=gKe6FehljfTGAcKrW4O82%2Bk2qYQ%3D"
+        },
+        "log_id": "20250712234732C854A927C4D4DFBF4C84",
+        "msg": "success"
+      },
+      {
+        "code": 0,
+        "data": {
+          "link": "https://lf3-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426725529589628955_91155163-8cd0-496a-a59d-fbb2e98a6656.mp3?lk3s=da27ec82&x-expires=1752594486&x-signature=jMRn1gngieFKdBzGQRbqNqCN1zM%3D"
+        },
+        "log_id": "20250712234732C854A927C4D4DFBF4C84",
+        "msg": "success"
+      }
+    ],
+    "voiceDurationList": [
+      {
+        "duration": 7.032,
+        "message": "ok"
+      },
+      {
+        "duration": 7.032,
+        "message": "ok"
+      },
+      {
+        "duration": 7.032,
+        "message": "ok"
+      },
+      {
+        "duration": 7.032,
+        "message": "ok"
+      },
+      {
+        "duration": 7.032,
+        "message": "ok"
+      }
+    ]
+  }
