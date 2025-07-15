@@ -1,12 +1,8 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
-# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -20,267 +16,123 @@ parts/
 sdist/
 var/
 wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
+# Virtual Environment
 venv/
+env/
 ENV/
 env.bak/
 venv.bak/
 moviepy-tools-env/
 
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows
-# Windows thumbnail cache files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-
-# Dump file
-*.stackdump
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# Video processing specific
-# 临时文件目录
-temp/
-tmp/
-temp_*
-tmp_*
-
-# 媒体文件
-*.mp4
-*.avi
-*.mov
-*.mkv
-*.wmv
-*.flv
-*.webm
-*.m4v
-
-# 音频文件
-*.mp3
-*.wav
-*.flac
-*.aac
-*.ogg
-*.wma
-*.m4a
-
-# 图片文件 (可选择性忽略)
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.bmp
-*.tiff
-*.webp
-
-# 字幕文件
-*.srt
-*.ass
-*.ssa
-*.vtt
-*.sub
-
-# MoviePy 临时文件
-temp-audio.m4a
-temp-audio.wav
-temp_*.mp4
-temp_*.mp3
-
-# FFmpeg 日志
-ffmpeg.log
-ffmpeg_*.log
-
-# 项目特定目录
-output/
-cache/
-downloads/
-processed/
-backup/
-
-# 测试文件
-test_*.py
-*_test.py
-test/
-tests/
-
-# 配置文件 (包含敏感信息)
-config.json
-secrets.json
-api_keys.txt
-.env.local
-.env.production
-
-# IDE files
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# Log files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# MoviePy Tools 项目特定
+
+# 输出文件目录 - 生成的视频和音频文件
+output/
+!output/.gitkeep
+
+# 输入文件目录 - 用户上传的媒体文件
+input/audios/*.mp3
+input/audios/*.wav
+input/audios/*.m4a
+input/audios/*.aac
+input/videos/*.mp4
+input/videos/*.avi
+input/videos/*.mov
+input/videos/*.mkv
+input/subtitles/*.srt
+input/subtitles/*.ass
+input/subtitles/*.vtt
+!input/*/.gitkeep
+
+# 临时文件
+temp/
+tmp/
+temp_*
+tmp_*
+
+# MoviePy 生成的临时文件
+temp-audio.m4a
+temp-audio.wav
+temp_*.mp4
+temp_*.mp3
+TEMP_MPY_wvf_snd.wav
+
+# FFmpeg 日志
+ffmpeg*.log
+
+# 测试文件
+test_*.py
+*_test.py
+
+# 个人配置和敏感信息
+config_local.py
+secrets.json
+api_keys.txt
+.env
+.env.local
+.env.production
+
+# 日志文件
 *.log
 logs/
 
-# Database files
-*.db
-*.sqlite
-
-# Backup files
+# 缓存和备份
+cache/
+backup/
 *.bak
 *.backup
-*~
 
-# 大文件
+# 下载的媒体文件（如果有自动下载功能）
+downloads/
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 大文件和压缩包
 *.zip
 *.tar.gz
 *.rar
 *.7z
 
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 文档构建
+docs/_build/
+
 # 个人笔记
 notes.txt
 todo.txt
-README_personal.md 
+TODO.md
+NOTES.md 
