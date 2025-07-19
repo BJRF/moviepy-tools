@@ -1,0 +1,73 @@
+{
+    "image": [
+      "https://p9-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/c6af326e68b94387b0fdb3f42dce4348.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1783696906&x-signature=oQIHgb2BpIUhDAlzOEn7TZLl43w%3D",
+      "https://p9-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/125200a397dc432d9957c773e8544fa2.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1783696905&x-signature=l4SskbZiHNkhy%2FAZMMDVskwIHJM%3D",
+      "https://p3-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/d0b9412c457743d69fc78093801c5929.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1783696918&x-signature=gFfLsAvokqEEPfFNthueKhVslZo%3D",
+      "https://p26-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/78aa8055cc704e6c898702442836200a.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1783696916&x-signature=bbKbxhEXwYEqGCWJxLLw2Ct%2BXoU%3D",
+      "https://p26-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/55ddc79fe3c74c6dbb24bb6a8445e9d2.png~tplv-mdko3gqilj-image.png?rk3s=c8fe7ad5&x-expires=1783696928&x-signature=rsXMYfplKQZKl5qJtaGh%2FPQXB%2FM%3D"
+    ],
+    "voice": [
+      {
+        "code": 0,
+        "data": {
+          "link": "https://lf3-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468518920446656550_d581c391-6547-4ff4-a2d8-af92ba02be51.mp3?lk3s=da27ec82&x-expires=1752852096&x-signature=VOTeBSWjzqTAtHkpukpxvs4bIzQ%3D"
+        },
+        "log_id": "202507152321165F1D1F02257526638B8E",
+        "msg": "success"
+      },
+      {
+        "code": 0,
+        "data": {
+          "link": "https://lf3-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468518920446656550_e6819ddb-510c-41ac-93b6-286de2a62e0f.mp3?lk3s=da27ec82&x-expires=1752852096&x-signature=0QF3VofUgOi3Hc%2BcATfjNNUOu%2Bg%3D"
+        },
+        "log_id": "202507152321165F1D1F02257526638B8E",
+        "msg": "success"
+      },
+      {
+        "code": 0,
+        "data": {
+          "link": "https://lf9-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468518920446656550_5474a6e6-f194-4e5d-b95c-2568af8d1ee3.mp3?lk3s=da27ec82&x-expires=1752852096&x-signature=eR%2FWmAWGLOgNG5t6pepAyhAApV4%3D"
+        },
+        "log_id": "202507152321165F1D1F02257526638B8E",
+        "msg": "success"
+      },
+      {
+        "code": 0,
+        "data": {
+          "link": "https://lf3-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468518920446656550_d2936fb2-4b21-4f8b-a1df-716434bf01d7.mp3?lk3s=da27ec82&x-expires=1752852096&x-signature=QduHHqiOYZyVzNResHajmtS0jzw%3D"
+        },
+        "log_id": "202507152321165F1D1F02257526638B8E",
+        "msg": "success"
+      },
+      {
+        "code": 0,
+        "data": {
+          "link": "https://lf3-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7468518920446656550_f26f0d98-0a84-4cf9-8d25-44718498fb25.mp3?lk3s=da27ec82&x-expires=1752852096&x-signature=BEwQyp5dzEv%2BmrTj2cViGUwi9kw%3D"
+        },
+        "log_id": "202507152321165F1D1F02257526638B8E",
+        "msg": "success"
+      }
+    ],
+    "voiceDurationList": [
+      {
+        "duration": 4.656,
+        "message": "ok"
+      },
+      {
+        "duration": 4.656,
+        "message": "ok"
+      },
+      {
+        "duration": 4.656,
+        "message": "ok"
+      },
+      {
+        "duration": 4.656,
+        "message": "ok"
+      },
+      {
+        "duration": 4.656,
+        "message": "ok"
+      }
+    ]
+  }
